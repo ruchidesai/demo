@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class="col-sm-3 col-md-2 sidebar">
+      <ul class="nav nav-sidebar">
+        <li class="active"><a href="#">Tabular</a></li>
+        <li><a href="#">Graphical</a></li>
+      </ul>
+    </div>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+      <h1 class="page-header">Summary</h1>
+      <style>table,th,td
+       {
+            border:1px solid black;
+            border-collapse:collapse;
+        }</style>
+      <table>
+	      <thead>
+	      	<tr>
+			  <th>Total People</th>
+			  <th>Total Forms</th>
+			  <th>Total Form A</th>
+			  <th>Total Form B</th>
+			  <th>Total Form C</th>
+			</tr>
+		  </thead>
+		  <tbody>
+		  	<tr>
+			  <td>5</td>
+			  <td>73</td>
+			  <td>29</td>
+			  <td>0</td>
+			  <td>21</td>
+			</tr>
+	      </tbody>
+	  </table>
+{% endblock %}

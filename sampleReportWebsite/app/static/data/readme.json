@@ -1,0 +1,79 @@
+{
+ "name": "report",
+ "children": [
+  {
+   "name": "people_details",
+   "children": [
+    {
+     "name": "1",
+     "children": [
+      {"name": "Total_Form_A", "size": 40},
+      {"name": "Total_Form_B", "size": 15},
+      {"name": "Total_Form_C", "size": 0},
+      {"name": "Total_Form_D", "size": 10}
+     ]
+    },
+    {
+     "name": "2",
+     "children": [
+      {"name": "Total_Form_A", "size": 1},
+      {"name": "Total_Form_B", "size": 0},
+      {"name": "Total_Form_C", "size": 0},
+      {"name": "Total_Form_D", "size": 1}
+     ]
+    },
+    {
+     "name": "3",
+     "children": [
+      {"name": "Total_Form_A", "size": 3},
+      {"name": "Total_Form_B", "size": 1},
+      {"name": "Total_Form_C", "size": 0},
+      {"name": "Total_Form_D", "size": 1}
+     ]
+    },
+    {
+     "name": "4",
+     "children": [
+      {"name": "Total_Form_A", "size": 0},
+      {"name": "Total_Form_B", "size": 0},
+      {"name": "Total_Form_C", "size": 0},
+      {"name": "Total_Form_D", "size": 1}
+     ]
+    },
+    {
+     "name": "5",
+     "children": [
+      {"name": "Total_Form_A", "size": 11},
+      {"name": "Total_Form_B", "size": 6},
+      {"name": "Total_Form_C", "size": 0},
+      {"name": "Total_Form_D", "size": 5}
+     ]
+    }
+   ]
+  },
+  
+  {
+   "name": "form_details",
+   "children": [
+      {"name": "Total_Form_A", "size": 57},
+      {"name": "Total_Form_B", "size": 21},
+      {"name": "Total_Form_C", "size": 0},
+      {"name": "Total_Form_D", "size": 16}
+     ]
+    },
+
+    {
+   "name": "total_people",
+   "children": [
+      {"name": "total_people", "size": 5}
+     ]
+    }
+
+  
+  
+  
+  
+  
+  
+ ]
+}
