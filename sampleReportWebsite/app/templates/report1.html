@@ -1,0 +1,85 @@
+{% extends "details.html" %}
+
+{% block graph %}
+<h3>Summary</h3>
+<table class="table">
+	<tr>
+		<th>Total People</th>
+		<th>Total Form As</th>
+		<th>Total Form Bs</th>
+		<th>Total Form Cs</th>
+		<th>Total Form Ds</th>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>57</td>
+		<td>21</td>
+		<td>0</td>
+		<td>16</td>
+	</tr>
+</table>
+<br>
+<h3>Alerts</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae.</p>
+<p>Lorem ipsum dolor sit amet, consectetur.</p>
+<br>
+<h3>Subject Details</h3>
+<table class="table">
+	<tr>
+		<th>Person</th>
+		<th>Total Form As</th>
+		<th>Total Form Bs</th>
+		<th>Total Form Cs</th>
+		<th>Total Form Ds</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>20</td>
+		<td>12</td>
+		<td>0</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>10</td>
+		<td>2</td>
+		<td>0</td>
+		<td>4</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>10</td>
+		<td>5</td>
+		<td>0</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>9</td>
+		<td>2</td>
+		<td>0</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>5</td>
+		<td>10</td>
+		<td>0</td>
+		<td>4</td>
+	</tr>
+</table>
+<br>
+<h3>Errors</h3>
+<table class="table">
+		<tr>
+			<td>error 1</td>
+			<td><a href="{{ url_for('redcap_site') }}">View</a></td>
+		</tr>
+		<tr>
+			<td>error 2</td>
+			<td>View</td>
+		</tr>		
+	</table>
+
+{% endblock %}
