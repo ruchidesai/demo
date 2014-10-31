@@ -1,7 +1,18 @@
 {% extends "layout.html" %}
 
 {% block content %}
-    <h3>Reports for the month of January</h3>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-9">
+				<h3>Reports for REDCap runs from -/-/- to -/-/-</h3>
+			</div>
+			<div class="col-sm-3">
+				<br><br><br>
+				<p>Showing - of -</p>
+			</div>
+		</div>
+	</div>
+    
 	<table class="table">
 		<tr>
 			<td>report_01_10_2014.html</td>
@@ -44,4 +55,6 @@
 			<td>View</td>
 		</tr>
 	</table>
+	<p align="right">1 | <a href="#">2</a></p>
+	<p><a href="#">View Older</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Select a different range</a></p>
 {% endblock %}

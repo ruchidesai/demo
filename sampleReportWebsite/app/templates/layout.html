@@ -44,6 +44,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="{{ url_for('home') }}">Home</a></li>
             <li><a href="#">Help</a></li>
+            <li><a href="#">Logout</a></li>
           </ul>
         </div>
       </div>
@@ -53,8 +54,9 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li><a href="{{ url_for('report_home') }}">View Report</a></li>
-            <li><a href="{{ url_for('graph2') }}">View Statistics</a></li>
+            <li><a href="{{ url_for('reports') }}">View Reports for SLU</a></li>
+            <li><a href="{{ url_for('reports') }}">View Reports for VCU</a></li>
+            <li><a href="{{ url_for('reports') }}">View Reports for UF</a></li>
           </ul>
         </div>       
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">

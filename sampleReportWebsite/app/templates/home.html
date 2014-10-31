@@ -2,5 +2,25 @@
 
 {% block content %}
     <h1 class="page-header">Home</h1>
-    <p>Welcome to online interface for REDCap Data Import Report!</p>
+    <div class="container-fluid">
+	    <div class="row">
+		    <div class="col-sm-9">
+		    	<h4>REDCap runs in last 15 days:</h4>
+		    	<a href="{{ url_for('reports') }}"><img src="{{ url_for('static', filename='img/screenshot5.png') }}" style="width:500px;height:400px;"></a>
+		    </div>
+			<div class="col-sm-3">
+				<p>To view data in a different date range select from below</p>
+				<p>From</p>
+				<form action="{{ url_for('reports') }}">
+		    		<input type="date" name="bday">		    		
+				</form>
+				<p>To</p>
+				<form action="#">
+		    		<input type="date" name="bday">
+		    		<br>
+		    		<input type="submit" value="Go">
+				</form>
+			</div>
+		</div>
+	</div>  
 {% endblock %}
